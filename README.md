@@ -1,8 +1,6 @@
 # E-commerce Clothing Store
 ## Project description
 
-DazzleD is a distributed fashion e-commerce system that specializes in dropping limited edition clothing. There will be a lot of traffic when the limited edition items are released, so a distributed system is used to divide the workload and make the system highly scalable. The project is inspired by websites such as yeezysupply.com and supreme.com
-
 ## How to run the system
 ### Local set up
 1. Open three terminals (minimum) and navigate to the project folder in each one.
