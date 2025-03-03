@@ -1,0 +1,64 @@
+[
+  {
+    "name": "TESTNAME1",
+    "price": 10,
+    "imgURL": [
+      "https://i.ibb.co/TKnkHkL/top1.webp",
+      "https://i.ibb.co/8Kr8zbb/top1more1.webp",
+      "https://i.ibb.co/Wv8Vwbp/top1more2.webp"
+    ],
+    "sizes": ["S", "M"]
+  },
+  {
+    "name": "TESTNAME2",
+    "price": 15,
+    "imgURL": [
+      "https://i.ibb.co/tbNV8r7/top2.webp",
+      "https://i.ibb.co/y53Y4wz/top2more1.webp",
+      "https://i.ibb.co/dggPDPs/top2more2.webp"
+    ],
+    "sizes": ["S", "M"]
+  },
+  {
+    "name": "TESTNAME3",
+    "price": 20,
+    "imgURL": [
+      "https://i.ibb.co/g6cfxgw/bot1.webp",
+      "https://i.ibb.co/wrswQBr/bot1more1.webp",
+      "https://i.ibb.co/hKfV695/bot1more2.webp"
+    ],
+    "sizes": ["S", "M"]
+  },
+  {
+    "name": "TESTNAME4",
+    "price": 10,
+    "imgURL": [
+      "https://i.ibb.co/3m19dhM/bot2.webp",
+      "https://i.ibb.co/LJxnS4F/bot2more1.webp",
+      "https://i.ibb.co/CBhz8fX/bot2more2.webp"
+    ],
+    "sizes": ["S", "M"]
+  },
+  {
+    "name": "TESTNAME5",
+    "price": 10,
+    "imgURL": [
+      "https://i.ibb.co/T0MkHQt/shoe1.webp",
+      "https://i.ibb.co/p2SBMGr/shoe1more1.webp",
+      "https://i.ibb.co/9N1JBpt/shoe1more2.webp",
+      "https://i.ibb.co/SNpv1SH/shoe1more3.webp"
+    ],
+    "sizes": ["S", "M"]
+  },
+  {
+    "name": "TESTNAME6",
+    "price": 10,
+    "imgURL": [
+      "https://i.ibb.co/DCmPqHx/shoe2.webp",
+      "https://i.ibb.co/0C1Hs36/shoe2more1.webp",
+      "https://i.ibb.co/nbhKhvX/shoe2more2.webp",
+      "https://i.ibb.co/bKDGBcV/shoe2more3.webp"
+    ],
+    "sizes": ["S", "M"]
+  }
+]

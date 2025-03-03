@@ -1,0 +1,32 @@
+version: "3.8"
+services:
+  frontend:
+    build: ./client
+    ports:
+      - 5173:5173
+  backend1:
+    build: ./server
+    ports:
+      - 5000:5000
+    volumes:
+      - ./server/db:/data
+    command: node server.js 5000
+  backend2:
+    build: ./server
+    ports:
+      - 5001:5001
+    volumes:
+      - ./server/db:/data
+    command: node server.js 5001
+  backend3:
+    build: ./server
+    ports:
+      - 5002:5002
+    volumes:
+      - ./server/db:/data
+    command: node server.js 5002
+  load-balancer:
+    build: ./server
+    ports:
+      - 4000:4000
+    command: node loadbalancer.js
