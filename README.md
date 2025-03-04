@@ -1,4 +1,4 @@
-# E-commerce Clothing Store
+# E-commerce Store
 ## Project description
 
 ## How to run the system
