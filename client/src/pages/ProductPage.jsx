@@ -34,7 +34,7 @@ const ProductPage = () => {
   // Get size input
   const sizeInput = useRef();
 
-  // toggle disabled add to cart button if user choose an item out of stock
+  // toggle disabled add to cart button if user choose an item out of .....
   const handleSizeChange = () => {
     const value = sizeInput.current.value[0];
     qty[value] === 0 ? setDisabled(true) : setDisabled(false);
