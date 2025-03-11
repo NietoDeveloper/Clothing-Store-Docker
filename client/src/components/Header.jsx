@@ -31,18 +31,16 @@ const Header = () => {
         CART ({numItem})
       </Link>
       <div
-        className={`${
-          isOpenModal ? "w-full" : "w-0"
-        } h-full bg-black opacity-20 fixed top-0 right-0`}
+        className={`${isOpenModal ? "w-full" : "w-0"
+          } h-full bg-black opacity-20 fixed top-0 right-0`}
         onClick={() => setIsOPenModal(!isOpenModal)}
       ></div>
       <div
-        className={`h-full ${
-          isOpenModal ? "w-1/2" : "w-0"
-        } transition-all bg-white fixed top-0 left-0 py-16 overflow-hidden flex flex-col pl-4 gap-y-6`}
+        className={`h-full ${isOpenModal ? "w-1/2" : "w-0"
+          } transition-all bg-white fixed top-0 left-0 py-16 overflow-hidden flex flex-col pl-4 gap-y-6`}
       >
         <span className="font-bold text-lg">SHOP</span>
-        <span className="font-bold text-lg">COLLECTIONS</span>
+        <span className="font-bold text-lg">COLLECTION</span>
         <span className="font-bold text-lg">ABOUT</span>
       </div>
     </div>
