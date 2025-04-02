@@ -10,7 +10,7 @@ const Footer = () => {
         <BsTwitter />
         <BsYoutube></BsYoutube>
       </div>
-      <p className="leading-6 text-center mt-4">&#169; 2025 Manuel Nieto</p>
+      <p className="leading-6 text-center mt-4">&#169; 2025 Manuel Nieto Software Developer</p>
     </div>
   );
 };
