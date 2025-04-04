@@ -7,6 +7,7 @@ const fs = require("fs");
 // Port is used to determine the database file to connect to, while leaderDB specifies the
 const connectDB = (port, leaderDB) => {
   // The database file name is generated based on the port number provided to the function.
+  
   // The last digit of the port number is used to generate the database file name.
   const dbFile = `./db/rep${port.slice(-1)}.db`;
 
