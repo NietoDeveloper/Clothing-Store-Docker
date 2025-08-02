@@ -13,7 +13,7 @@ Manuel Nieto: Software Developer
 
 Setup Instructions
 
-Clone the repository:git clone [repository-url]
+Clone the repository:git clone [https://github.com/NietoDeveloper/Clothing-Store-Docker/tree/main/client]
 
 
 Navigate to the frontend directory:cd frontend
