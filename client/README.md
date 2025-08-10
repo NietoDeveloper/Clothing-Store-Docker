@@ -1,4 +1,4 @@
-Frontend for [App Name]
+### Frontend for Cloting Store
 This is the frontend of [App Name], a web application built with a separate backend.
 Tech Stack
 
@@ -24,8 +24,6 @@ Install dependencies:npm install
 
 Start the development server:npm run dev
 
-
-
 Build
 To create a production build:
 npm run build
@@ -39,3 +37,5 @@ vite.config.js: Vite configuration file
 Notes
 
 Ensure the backend API is running and configured correctly
+
+## Manuel Nieto Software Develeoper
