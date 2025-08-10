@@ -1,4 +1,5 @@
-### Frontend for Cloting Store
+## Frontend for Cloting Store
+
 This is the frontend of [App Name], a web application built with a separate backend.
 Tech Stack
 
@@ -7,11 +8,7 @@ Vite: Fast frontend build tool
 Node.js: JavaScript runtime for development environment
 Tailwind CSS: Utility-first CSS framework for styling
 
-Developer
-
-Manuel Nieto: Software Developer
-
-Setup Instructions
+### Setup Instructions
 
 Clone the repository:git clone [https://github.com/NietoDeveloper/Clothing-Store-Docker/tree/main/client]
 
@@ -38,4 +35,4 @@ Notes
 
 Ensure the backend API is running and configured correctly
 
-## Manuel Nieto Software Develeoper
+## Manuel Nieto Software Developer
