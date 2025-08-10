@@ -1,7 +1,5 @@
-## Frontend for Cloting Store
+## Frontend for Clothing Store
 
-This is the frontend of [App Name], a web application built with a separate backend.
-Tech Stack
 
 React: JavaScript library for building user interfaces
 Vite: Fast frontend build tool
