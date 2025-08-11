@@ -1,4 +1,4 @@
-## Frontend for Clothing Store
+## Frontend Clothing Store
 
 ### Stack
 
