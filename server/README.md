@@ -1,15 +1,16 @@
-Message Form Server
+## Clothing Store Server
 Overview
-This is the server component of the Message Form App, built with Node.js. It resides in the server directory within the main project folder, which is divided into client and server directories. Developed by Manuel Nieto, Software Developer, in 2024.
+The Clothing Store Server is the backend component of the Clothing Store e-commerce project, built with Node.js. This server resides in the server directory within the main project folder, which is divided into client and server subdirectories.
 Technologies
 
-Node.js: Server-side runtime environment
+Node.js: Runtime environment for server-side logic
+Express: Web framework for handling API routes
 
 Features
 
-Handles message processing from the client
-RESTful API endpoints for message management
-Integrates with the client-side React app
+RESTful API for product and order management
+Handles client requests for the e-commerce platform
+Supports CRUD operations for products, users, and orders
 
 Installation
 
@@ -19,24 +20,22 @@ Navigate to the server directory:cd server
 Install dependencies:npm install
 
 
-Start the server:npm run start
+Start the server:npm start
 
 
 
 Usage
 
-The server runs on http://localhost:3000 (or configured port)
-Handles requests from the client app in the client directory
-Ensure the client app is running (npm run dev in the client directory)
+The server runs on http://localhost:3000 by default
+Connects with the client app in the client directory
+Provides endpoints for product listings, cart management, and order processing
 
 Project Structure
 
-client/: React frontend application
-server/: Node.js backend server
+client/: Frontend application
+server/: Backend server (this repository)
 
 Contributing
 Contributions are welcome! Fork the repository and submit a pull request.
 License
 MIT License
-Contact
-Created by Manuel Nieto, Software Developer. Reach out via GitHub.
