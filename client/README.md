@@ -34,4 +34,6 @@ Notes
 
 Ensure the backend API is running and configured correctly
 
-## Manuel Nieto Software Developer
+# Manuel Nieto
+
+## NietoSoftwareDeveloper
