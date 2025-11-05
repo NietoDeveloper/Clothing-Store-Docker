@@ -1,6 +1,6 @@
 # Clothing Store Server
 
-###  Overview
+##  Overview
 
 The Clothing Store Server is the backend component of the Clothing Store e-commerce project, built with Node.js. This server resides in the server directory within the main project folder, which is divided into client and server subdirectories.
 Technologies
