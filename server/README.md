@@ -43,4 +43,5 @@ License
 
 MIT License
 
-## Manuel Nieto Software Developer
+## Manuel Nieto
+
