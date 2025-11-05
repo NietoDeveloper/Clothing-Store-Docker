@@ -1,6 +1,6 @@
-## Frontend Clothing Store
+# Frontend Clothing Store
 
-### Stack
+## Stack
 
 React: JavaScript library for building user interfaces
 Vite: Fast frontend build tool
