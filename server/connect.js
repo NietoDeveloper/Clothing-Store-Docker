@@ -21,8 +21,6 @@ const connectDB = (port, leaderDB) => {
     }
   );
 
-  // If the database file generated from the port number is not the same as the leaderDB,
-  // then the database is cloned from the leaderDB using the copyFile() method from the fs
   if (dbFile !== leaderDB) {
     fs.copyFile(`${leaderDB}`, `${dbFile}`, (err) => {
       if (err) throw err;
