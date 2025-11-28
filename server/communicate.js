@@ -8,7 +8,6 @@ function incrementClock() {
   return logicalTime;
 }
 
-// When new update arrives, update the clock based on the logical time from message and current
 function updateClock(timestamp) {
   logicalTime = Math.max(logicalTime, timestamp) + 1;
   return logicalTime;
