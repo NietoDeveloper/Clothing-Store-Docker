@@ -11,12 +11,9 @@ Tailwind CSS: Utility-first CSS framework for styling
 
 Clone the repository:git clone [https://github.com/NietoDeveloper/Clothing-Store-Docker/tree/main/client]
 
-
 Navigate to the frontend directory:cd frontend
 
-
 Install dependencies:npm install
-
 
 Start the development server:npm run dev
 
@@ -34,7 +31,7 @@ Notes
 
 Ensure the backend API is running and configured correctly
 
-# Manuel Nieto
+## Manuel Nieto
 
 ## NietoSoftwareDeveloper
 
