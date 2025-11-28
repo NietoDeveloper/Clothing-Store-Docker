@@ -156,7 +156,7 @@ const handler = async (req, res) => {
       headers: headers,
       data: body,
     });
-    // return which server process the request. For testing purposes
+
     response.data.server = serverUrl;
     res.status(response.status).send(response.data);
   } catch (err) {
