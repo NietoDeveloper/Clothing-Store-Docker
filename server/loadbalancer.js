@@ -169,7 +169,6 @@ app.use((req, res) => {
   handler(req, res);
 });
 
-// Start the load balancer server
 const port = parseInt(process.argv[2]) || 4000;
 app.listen(port, (err) => {
   err
@@ -177,5 +176,4 @@ app.listen(port, (err) => {
     : console.log("Load Balancer Server Listening on PORT " + port);
 });
 
-// Start the health check interval
-startHealthCheckInterval(1000); // Check the health of servers every 5 seconds
+startHealthCheckInterval(1000); 
