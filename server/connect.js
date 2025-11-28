@@ -2,7 +2,6 @@ const sqlite3 = require("sqlite3").verbose();
 const fs = require("fs");
 
 const connectDB = (port, leaderDB) => {
-  // The database file name is generated based on the port number provided to the function.
   
   const dbFile = `./db/rep${port.slice(-1)}.db`;
 
