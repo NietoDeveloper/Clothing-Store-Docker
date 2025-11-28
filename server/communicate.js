@@ -42,7 +42,6 @@ const setUpSubscribe = (port) => {
     const { db } = require("./connect");
 
     const [timestamp, update] = msg.split("|");
-    // console.log(timestamp.toString());
 
     console.log("Sync");
     new Promise((resolve, reject) => {
