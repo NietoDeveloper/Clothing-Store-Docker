@@ -49,7 +49,6 @@ const setUpSubscribe = (port) => {
         if (err) reject(err);
         resolve(result);
 
-        // Increment logical clock on successful query
         updateClock(timestamp);
         console.log("Logical Time is: " + logicalTime);
       });
