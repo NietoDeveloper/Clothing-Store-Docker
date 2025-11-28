@@ -7,8 +7,6 @@ const connectDB = (port, leaderDB) => {
   // The last digit of the port number is used to generate the database file name.
   const dbFile = `./db/rep${port.slice(-1)}.db`;
 
-  // Connect to the database file using the sqlite3 module's Database() method.
-  // The method takes in the database file path, and the read and write flags for opening the
   const db = new sqlite3.Database(
     dbFile,
     sqlite3.OPEN_READWRITE | sqlite3.OPEN_CREATE,
