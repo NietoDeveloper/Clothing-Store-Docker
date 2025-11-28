@@ -41,7 +41,6 @@ const setUpSubscribe = (port) => {
   dem.on("global", (msg) => {
     const { db } = require("./connect");
 
-    // split timestamp and query m
     const [timestamp, update] = msg.split("|");
     // console.log(timestamp.toString());
 
