@@ -22,9 +22,6 @@ const setUpSubscribe = (port) => {
 
   connectDB(port, `./db/rep${dem._id}.db`);
 
-  // on server start, it will send message to any of the alive servers.
-  // if any alive server response, it will replicate the response server
-  // firstConnection boolean is used to make sure it only replicate once
   let firstConnection = true;
   dem.on("replicate", ({ connect, origin }) => {
     if (dem._id == origin) {
