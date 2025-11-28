@@ -20,7 +20,6 @@ const setUpSubscribe = (port) => {
     id: `${port.slice(-1)}`,
   });
 
-  // init connect
   connectDB(port, `./db/rep${dem._id}.db`);
 
   // on server start, it will send message to any of the alive servers.
