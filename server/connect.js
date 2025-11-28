@@ -1,9 +1,6 @@
 const sqlite3 = require("sqlite3").verbose();
 const fs = require("fs");
 
-// Define a function called "connectDB" that takes two parameters: port and leaderDB
-
-// Port is used to determine the database file to connect to, while leaderDB specifies the
 const connectDB = (port, leaderDB) => {
   // The database file name is generated based on the port number provided to the function.
   
