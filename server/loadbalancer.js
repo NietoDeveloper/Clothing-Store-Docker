@@ -165,7 +165,6 @@ const handler = async (req, res) => {
   }
 };
 
-// Middleware for handling requests
 app.use((req, res) => {
   handler(req, res);
 });
