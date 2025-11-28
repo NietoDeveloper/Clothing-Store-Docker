@@ -9,18 +9,6 @@ import { LBProvider } from "./utils/LoadBalancerContext";
 import Footer from "./components/Footer";
 import Checkout from "./pages/Checkout";
 import Thankyou from "./pages/Thankyou";
-/* TODO
-- Change Menu/Cart into icons
-- Create page for each product
-- Design product page
-  - Instagram carousel
-    - Dot
-    - Add swipe event
-  - Quantity input validation
-- Design cart page
-- Create payment page
-- Add footer
-*/
 
 function App() {
   return (
