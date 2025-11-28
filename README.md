@@ -1,4 +1,4 @@
-## E-commerce Clothing Store
+# E-commerce Clothing Store
 
 ## Project description
 
