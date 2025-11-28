@@ -3,7 +3,6 @@ const { connectDB } = require("./connect");
 
 let logicalTime = 0;
 
-// Increment logical clock
 function incrementClock() {
   logicalTime++;
   return logicalTime;
