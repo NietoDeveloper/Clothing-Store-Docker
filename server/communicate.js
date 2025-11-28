@@ -13,7 +13,6 @@ function updateClock(timestamp) {
   return logicalTime;
 }
 
-// A function used to set up a subscription to the global channel using the Democracy module
 const setUpSubscribe = (port) => {
   const dem = new Democracry({
     source: `0.0.0.0:${port}`,
