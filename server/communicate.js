@@ -37,8 +37,6 @@ const setUpSubscribe = (port) => {
   dem.send("new", dem._id);
 
   dem.subscribe("global");
-  // Adding a listener for the 'global' event, which is emitted when a message is received on the global channel
-  // The message contains a SQL query to be executed on the database
 
   dem.on("global", (msg) => {
     const { db } = require("./connect");
