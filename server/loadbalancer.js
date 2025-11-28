@@ -40,7 +40,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-// remove caching to prevent 304 from fetch
+
 app.set("etag", false);
 app.use((req, res, next) => {
   res.set("Cache-Control", "no-store");
