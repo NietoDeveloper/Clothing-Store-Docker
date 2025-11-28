@@ -127,8 +127,6 @@ const performHealthChecks = () => {
     }
   }
 };
-// // Check the health of the servers every 1 second
-// setInterval(performHealthChecks, 1000);
 
 /**
  * Handles incoming requests and forwards them to a healthy server.
