@@ -9,9 +9,7 @@ Tailwind CSS: Utility-first CSS framework for styling
 
 ### Setup Instructions
 
-Clone the repository:git clone [https://github.com/NietoDeveloper/Cpm install
-
-Start the development server:npm run dev
+Clone the repository:git clone [https://github.com/NietoDeveloper/
 
 Build
 To create a production build:
