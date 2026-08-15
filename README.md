@@ -11,4 +11,3 @@
 3. In the second terminal, cd into the server folder and run `node loadbalancer 4000` to start the load balancer on port 4000.
 4. In the third terminal, run `node server 5000` to start the server on port 5000.
 5. Run `node reset` to initialize the server databases with the default data.
-6. Go to your web browser and navigate to `localhost:5173` to view 
