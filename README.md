@@ -14,25 +14,3 @@
 6. Go to your web browser and navigate to `localhost:5173` to view the client side.
 
 ### Run with docker-compose
-
-1. In server/loadbalancer.js, uncomment
-
-```
-const servers = [
-{ url: "http://backend1:5000", isHealthy: true },
-{ url: "http://backend2:5001", isHealthy: true },
-{ url: "http://backend3:5002", isHealthy: true },
-];
-```
-
-and comment out
-
-```
-const servers = [
-  { url: "http://localhost:5000", isHealthy: true },
-  { url: "http://localhost:5001", isHealthy: true },
-  { url: "http://localhost:5002", isHealthy: true },
-];
-```
-
-2. docker-com
