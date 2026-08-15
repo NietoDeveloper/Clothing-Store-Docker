@@ -39,5 +39,3 @@ const servers = [
 3. docker-compose up
 
 ## FYI
-
-- You can run any combination of up to 2 load balancers and 3 servers on your local machine.
