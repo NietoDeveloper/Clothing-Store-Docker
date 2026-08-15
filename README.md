@@ -9,5 +9,3 @@
 1. Open three terminals (minimum) and navigate to the project folder in each one.
 2. In the first terminal, cd into the client folder and run `npm run dev` to start the client side.
 3. In the second terminal, cd into the server folder and run `node loadbalancer 4000` to start the load balancer on port 4000.
-4. In the third terminal, run `node server 5000` to start the server on port 5000.
-5. Run `node reset` to initialize the server databases with the 
