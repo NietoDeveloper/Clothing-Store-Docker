@@ -1,3 +1,1 @@
 # Frontend Clothing Store
-
-## Stack
