@@ -35,4 +35,4 @@ const servers = [
 ];
 ```
 
-2. docker-compose build
+2. docker-com
