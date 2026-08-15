@@ -44,6 +44,3 @@ const servers = [
 - Current load balancer ports are 4000 and 4001.
 
 
-## NietoDeveloper
-
-### 2024
