@@ -9,8 +9,7 @@ Tailwind CSS: Utility-first CSS framework for styling
 
 ### Setup Instructions
 
-Clone the repository:git clone [https://github.com/NietoDeveloper/Clothing-Store-Docker/tree/main/client]
-
+Clone the repository:git clone [https://github.com/NietoDeveloper/Clothing-Store-Docker/tree/main/client
 Navigate to the frontend directory:cd frontend
 
 Install dependencies:npm install
