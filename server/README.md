@@ -6,13 +6,7 @@ The Clothing Store Server is the backend component of the Clothing Store e-comme
 Technologies
 
 Node.js: Runtime environment for server-side logic
-Express: Web framework for handling API routes
 
-### Features
-
-RESTful API for product and order management
-Handles client requests for the e-commerce platform
-Supports CRUD operations for products, users, and orders
 
 ### Installation
 
