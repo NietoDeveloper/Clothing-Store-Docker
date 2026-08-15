@@ -13,13 +13,6 @@ Node.js: Runtime environment for server-side logic
 Clone the repository:git clone <https://github.com/NietoDeveloper/Clothing-Store-Docker/tree/main/server>
 
 
-Usage
-
-The server runs on http://localhost:3000 by default
-Connects with the client app in the client directory
-Provides endpoints for product listings, cart management, and order processing
-
-Project Structure
 
 client/: Frontend application
 server/: Backend server (this repository)
