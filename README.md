@@ -7,4 +7,4 @@
 ### Local set up
 
 1. Open three terminals (minimum) and navigate to the project folder in each one.
-2. In the first terminal, cd into the client folder and run `npm 
+¿
