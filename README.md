@@ -8,4 +8,3 @@
 
 1. Open three terminals (minimum) and navigate to the project folder in each one.
 2. In the first terminal, cd into the client folder and run `npm run dev` to start the client side.
-3. In the second terminal, cd into the server folder and run `node 
