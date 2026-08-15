@@ -41,6 +41,3 @@ const servers = [
 ## FYI
 
 - You can run any combination of up to 2 load balancers and 3 servers on your local machine.
-- Current load balancer ports are 4000 and 4001.
-
-
