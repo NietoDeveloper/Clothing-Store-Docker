@@ -43,7 +43,7 @@ const servers = [
 - You can run any combination of up to 2 load balancers and 3 servers on your local machine.
 - Current load balancer ports are 4000 and 4001.
 - Current server ports are 5000, 5001, and 5002.
-- You can also open another terminal, cd to the client folder, and run `npm run dev` to run a secondary instance of the client side on your local machine. In this case, navigate to `localhost:5174` to view the secondary client.
+- You can also open another terminal, cd to the client folder, and run `npm run dev` to run a secondary instance of the client side on 
 
 ## Manuel Nieto
 
