@@ -13,16 +13,9 @@ Tailwind CSS: Utility-first CSS framework for styling
 
 Project Structure
 
-src/: Contains React components, styles, and assets
-public/: Static files served directly
-vite.config.js: Vite configuration file
-
 Notes
 
 Ensure the backend API is running and configured correctly
 
-## Manuel Nieto
-
-## NietoSoftwareDeveloper
 
 ### 2025
