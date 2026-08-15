@@ -12,13 +12,6 @@ Node.js: Runtime environment for server-side logic
 
 Clone the repository:git clone <https://github.com/NietoDeveloper/Clothing-Store-Docker/tree/main/server>
 
-Navigate to the server directory:cd server
-
-
-Install dependencies:npm install
-
-
-Start the server:npm start
 
 Usage
 
