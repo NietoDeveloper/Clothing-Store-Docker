@@ -13,4 +13,3 @@
 5. Run `node reset` to initialize the server databases with the default data.
 6. Go to your web browser and navigate to `localhost:5173` to view the client side.
 
-### Run with docker-compose
